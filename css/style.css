@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.welcome {
+  color: black;
+  line-height: 2.5;
+}
+
+.navbar {
+  background-color: black;
+  color: #fff;
+  height: 100px;
+}
+
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar ul li {
+  margin-left: 40px;
+}
+
+.navbar .container .logo {
+  color: #fff;
+  font-size: x-large;
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.welcome_box {
+  background-color: #ddd;
+}
+
+.welcome_box_text {
+  text-align: center;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.welcome_box_text_greeting {
+  font-size: 50px;
+}
+
+.welcome_box_text_park {
+  font-size: 30px;
+}
+
+.main {
+  width: 700px;
+  height: 100px;
+  background-color: #fff;
+  padding-left: 20rem;
+  float: left;
+}
+
+.activity_explain_title {
+  flex: 1 1 auto;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.activity_explain_text {
+  display: block;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.activity_btn {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.activity_btn:hover {
+  background-color: #5cbf2a;
+}
+
+.activity_btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.side {
+  width: 300px;
+  height: 600px;
+  float: right;
+  padding-right: 30rem;
+}
+
+.categories-body {
+  background-color: black;
+  color: #fff;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  word-spacing: 30px;
+  height: 100%;
+}
+.row a {
+  text-decoration: none;
+}
